@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../assets/Startup-lança-cartão-de-crédito-recarregável-em-criptomoeda.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div {
+    background-color: rgb(25, 194, 189);
+    color: aliceblue;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border-radius: 5px;
+    border: 5px solid rgb(0, 238, 255);
+
+
+}
+
+input {
+    margin-top: 20px;
+
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 20px;
+
+    border: 2px solid rgb(79, 37, 208);
+
+    margin-bottom: 10px;
+}
+
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+select {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 180px;
+    max-height: 140px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.valor {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+    background-color: aliceblue;
+}
